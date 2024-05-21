@@ -55,8 +55,15 @@ public class Principal {
 		System.out.println("Suma: " + additiony);
 		System.out.println("Media: " + additiony/county);
 		
-		/* Cierre de Scanner */
+		/* Cierre de Cosis de Lectura */
 		fileSC.close();
+		
+			//Cierre del FileReader
+		try {
+			readerino.close();
+		} catch (IOException e) {
+			System.err.println("Archivo no cerrado correctamente");
+		}//Fin FileReader --> Close
 		
 	}//FIN MAIN
 
