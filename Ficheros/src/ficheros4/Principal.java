@@ -52,7 +52,6 @@ public class Principal {
 				System.err.println("Error al escribir");
 			}//Fin try-catch escritura
 			
-			
 		}//Fin while --> Loopty writing loop
 		
 		/* Closing things up */
